@@ -39,14 +39,11 @@ grid-item1{
   align-items: center;
   color: antiquewhite;
   text-align: center;
+  background-image:-webkit-image-set()
 
 }
 
-grid-item1 img{
-  width: 400px;
-  height: 800px;
-    
-}
+
 
 
 .grid-container {
