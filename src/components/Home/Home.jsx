@@ -1,9 +1,13 @@
 import React from 'react'
+//import umbrella from '../../assets/umbrella.jpeg'
 
 function Home() {
   return (
-    <div>
-        Home
+    <div className='home-container'>
+        <div>
+            
+        </div>
+        
     </div>
   )
 }
