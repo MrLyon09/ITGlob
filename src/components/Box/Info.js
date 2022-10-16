@@ -6,7 +6,7 @@ function Info(title,poster) {
       <img src={poster} alt="" />
       <h4>{title}</h4>
       <p>
-        ´{""}
+        {""}
       </p>
       
     </div>
