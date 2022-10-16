@@ -28,24 +28,6 @@
   transform: scale(1.04);
 }
 
-grid-item1{
-  position:relative;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: antiquewhite;
-  text-align: center;
-  background-image:-webkit-image-set()
-
-}
-
-
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
