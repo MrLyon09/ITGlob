@@ -1,4 +1,4 @@
-.Container {
+.Box {
     width: 50%;
     height: 80vh;
     display: flex;
@@ -9,17 +9,17 @@
     background-size: cover;
   }
   
-  .container-image > h4 {
+  .container-box > h4 {
     border-bottom: 1px solid #000;
     width: 15%;
     text-align: center;
   }
   
-  .container-image > p {
+  .container-box > p {
     text-align: center;
   }
   
-  .container-image > img {
+  .container-box > img {
     width: 100px;
     height: 100px;
   }
