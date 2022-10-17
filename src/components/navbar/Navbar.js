@@ -9,24 +9,20 @@ function Navbar() {
 
       <div className="section">
         <div className="item">
-          <img src="" alt="" />
           <span>PUFI PUF</span>
         </div>
         <div className="item">
-          <img src="umbrella.ico" alt="" />
           <span> PUFI RAIN </span>
         </div>
         <div className="item">
-          <img src="" alt="" />
           <span> PUFI CART </span>
         </div>
         <div className="item">
-          <img src="" alt="" />
           <span> PUFI NAP </span>
         </div>
       </div>
 
-      <div className="shop">
+      <div className="shopping">
         <span>
           Mi cuenta <select> </select>{" "}
         </span>

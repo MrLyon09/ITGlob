@@ -1,11 +1,11 @@
 .navbar{
     width: 100%;
     background: rgb(184, 232, 232);
-    display: -webkit-flex;
     display: flex;
-    display: -ms-flexbox;
     margin: auto;
     padding: 3px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
 }
 
 .item {
@@ -20,8 +20,9 @@
 
 .navbar-container{
     justify-content: space-between;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
+    max-height: 200px;
+    padding: 10%;
+
     
 }
 
@@ -33,11 +34,16 @@
     justify-content: center;
 }
 
-.shop{
+.shopping{
     flex-wrap: wrap;
-    display: flex;
     width: 25%;
     margin: 5px;
     justify-content: flex-end;
     align-items: baseline;
+}
+
+.shopping >span{
+    flex-wrap: wrap;
+    padding: 3px;
+    font-size: 15px;
 }
