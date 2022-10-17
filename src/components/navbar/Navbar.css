@@ -1,71 +1,72 @@
-.navbar{
+.navbar-container {
     width: 100%;
-    display: flex;
-    margin: 10 px auto;
-    padding: 3px;
+    padding: 5px;
+    margin: 10px auto;
     display: -webkit-flex;
     display: -ms-flexbox;
-}
-
-.item {
-    flex-direction: column;
-    align-items: center;
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    border-right: 1px solid whitesmoke;
-
-}
-
-.itemF{
+    
+  }
+  
+  .navCenter {
+    align-items: center;
+     
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 5px;
+    justify-content: center;
+    
+  }
+  
+  .dates {
+    flex-wrap: wrap;
+    display: flex;
+    width: 35%;
+    margin: 5px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    border-right: 1px solid white;
     font-size: 20px;
-}
-
-.span > select{
-    background-color:transparent;
-    color: antiquewhite;
-    border-right: 2px;
-    border: none;
-
-}
-
-.item .intemF{
-    font-size: 25px;
-    padding: 7px;
-}
-
-.navbar.space-between{
-    justify-content:space-between;
+  }
+  
+  .item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-right: 1px solid white;
+    font-size: 40px;
+    font-weight: bolder;
+    align-items: center;
+  }
+  
+  .dates >span {
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .navbar-container.space-between {
+    background-image: none;
+    background-color: transparent;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    
-}
-
-.section{
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 10px;
-    justify-content: center;
-      
-}
-
-.shopping{
-    flex-wrap: wrap;
-    width: 30%;
-    margin: 5px;
-    justify-content: flex-end;
-    align-items: baseline;
-    display: flex;
-}
-
-.shopping >span{
-    flex-wrap: wrap;
-    padding: 3px;
-    font-size: 20px;
-}
+    justify-content: space-between;
+  }
+  
+  span > select {
+    border: none;
+    color: rgb(36, 1, 1);
+    background-color: whitesmoke;
+    border-right: 1px solid rgb(38, 3, 64);
+  }
+  

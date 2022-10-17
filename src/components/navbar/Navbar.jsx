@@ -1,42 +1,50 @@
+import {
+  AiFillCopyrightCircle,
+  AiFillBulb,
+  AiFillWechat,
+  AiOutlineBug
+  
+} from "react-icons/ai";
+
 import "./Navbar.css";
-import logo from "../../assets/img/logo.png";
 
 function Navbar() {
   return (
-    <nav className="navbar space-between">
-      <div className="logo">
-        <img src={logo.png} alt="logo" className="ImgLogo" />
+
+    <nav className="navbar-container space-between d-flex">
+      
+      <div className="item1" >
+        <span>PUFFI</span> 
       </div>
 
-      <div className="section">
-
+      <div className="navCenter my-5 d-flex ">
+      
         <div className="item">
+          <AiOutlineBug />
           <span>PUFI PUF</span>
         </div>
-        
         <div className="item">
+          <AiFillBulb />
           <span> PUFI RAIN </span>
         </div>
-        
         <div className="item">
+          <AiFillWechat />
           <span> PUFI CART </span>
         </div>
-        
-        <div className="itemF">
-          <span> PUFI NAP </span>
+        <div className="item">
+          <AiFillCopyrightCircle />
+          <span> PUFINAP </span>
         </div>
-
+      
       </div>
 
-      <div className="shopping">
-
+      <div className="dates">
+        
         <span>
-          Mi cuenta <select> </select>{" "}
+          MI CUENTA <select> </select>{" "}
         </span>
-        <span>
-          Mi carrito
-        </span>
-      
+        
+        <span>MI COMPRA</span>
       </div>
     
     </nav>

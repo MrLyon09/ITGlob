@@ -13,6 +13,7 @@ function Slider() {
             className="d-block w-100"
             src="https://images.pexels.com/photos/4553656/pexels-photo-4553656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="First slide"
+            
             />
             <Carousel.Caption>
             <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
