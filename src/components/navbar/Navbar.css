@@ -1,7 +1,7 @@
 .navbar{
     width: 100%;
     display: flex;
-    margin: 15 px auto;
+    margin: 10 px auto;
     padding: 3px;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -17,27 +17,42 @@
 
 }
 
+.itemF{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.span > select{
+    background-color:transparent;
+    color: antiquewhite;
+    border-right: 2px;
+    border: none;
+
+}
+
+.item .intemF{
+    font-size: 16px;
+    padding: 7px;
+}
+
 .navbar.space-between{
     justify-content:space-between;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-
     
 }
 
 .section{
     display: flex;
     flex-wrap: wrap;
-    width: 65%;
+    width: 50%;
     margin: 10px;
     justify-content: center;
-    padding: 10px 50px;
-    text-align: center;
-    font-size: 30px;
-    opacity: 10px;
-    background-color: transparent;
-    color: #ffff;
-   
+      
 }
 
 .shopping{
@@ -46,6 +61,7 @@
     margin: 5px;
     justify-content: flex-end;
     align-items: baseline;
+    display: flex;
 }
 
 .shopping >span{

@@ -6,8 +6,13 @@ function Header() {
   return (
     <header className="container-header">
         <Navbar />
-        <h2 className='text-header'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h2>
-        <div className="inside-btn">SHOP</div>
+        
+        <h3 className='text-header'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h3>
+
+        <div className="btn-shop">
+          <button>SHOP</button>
+        </div>
+
     </header>
   )
 }
