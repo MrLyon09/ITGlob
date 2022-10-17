@@ -1,10 +1,12 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
 
+import Navbar from '../navbar/Navbar';
 
 function Slider() {
   return (
     <>
+        <Navbar />
         <Carousel>
         <Carousel.Item interval={1000}>
             <img
@@ -14,8 +16,8 @@ function Slider() {
             />
             <Carousel.Caption>
             <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
-            <div className="btn-slider">
-             <button>SHOP</button>
+            <div >
+                <button className="btn-slider">SHOP</button>
             </div>
 
             </Carousel.Caption>
@@ -28,7 +30,9 @@ function Slider() {
             />
             <Carousel.Caption>
             <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
-            
+            <div className="btn-slider">
+                <button>SHOP</button>
+            </div>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,7 +43,9 @@ function Slider() {
             />
             <Carousel.Caption>
             <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
-            
+            <div className="btn-slider">
+                <button>SHOP</button>
+            </div>
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
