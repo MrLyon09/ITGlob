@@ -42,6 +42,7 @@
   padding: 1rem;
   background-position: center;
   background-repeat: no-repeat;
+
   
 }
 
@@ -88,6 +89,16 @@
   background-repeat: no-repeat;
 }
 
+.btn-umbrellas{
+  justify-content: center;
+  background-color: transparent;
+  color: blanchedalmond;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border-color: aliceblue;
+  display: flex;
+  position:absolute;
+}
 
 .grid-container {
   display: grid;
