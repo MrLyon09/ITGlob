@@ -1,10 +1,11 @@
 import "./Navbar.css";
+import logo from '../../assets/img/logo.png'
 
 function Navbar() {
   return (
     <nav className="navbar container">
       <div className="logo">
-        <img src="logo.png" alt="logo" className="ImgLogo" />
+        <img src={logo.png} alt="logo" className="ImgLogo" />
       </div>
 
       <div className="section">
