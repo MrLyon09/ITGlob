@@ -1,8 +1,7 @@
 .navbar{
     width: 100%;
-    background: rgb(184, 232, 232);
     display: flex;
-    margin: auto;
+    margin: 15 px auto;
     padding: 3px;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -14,14 +13,14 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    border: 2px;
+    border-right: 1px solid whitesmoke;
 
 }
 
-.navbar-container{
-    justify-content: space-between;
-    max-height: 200px;
-    padding: 10%;
+.navbar.space-between{
+    justify-content:space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
 
     
 }
@@ -29,9 +28,16 @@
 .section{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 65%;
     margin: 10px;
     justify-content: center;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 10px;
+    background-color: transparent;
+    color: #ffff;
+   
 }
 
 .shopping{
