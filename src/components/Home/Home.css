@@ -36,8 +36,8 @@
   background-repeat: no-repeat;
 }
 
-.sombra{
-  background-image: url('../../assets/img/sombra.jpeg');
+.umbrellas{
+  background-image: url('../../assets/img/umbrellas.jpeg');
   background-size: cover;
   padding: 1rem;
   background-position: center;
@@ -45,46 +45,46 @@
   
 }
 
-.playa{
-  background-image: url('../../assets/img/puffPlaya.jpg');
+.cat{
+  background-image: url('../../assets/img/cat.jpeg');
   background-size: cover;
   padding: 1rem;
-  background-position:top;
-  background-repeat: no-repeat;
-}
-
-.puff{
-  background-image: url('../../assets/img/pufIco.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.cart{
-  background-image: url('../../assets/img/bag.png');
-  padding: 1rem;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.nap{
-  background-image: url('../../assets/img/nap2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.nap5{
-  background-image: url('../../assets/img/nap5.jpeg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.bags{
-  background-image: url('../../assets/img/bags.jpg');
-  background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
+}
+
+.napa{
+  background-image: url('../../assets/img/napa.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bolsas{
+  background-image: url('../../assets/img/bolsas.webp');
+  padding: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.bag{
+  background-image: url('../../assets/img/bag.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.cute{
+  background-image: url('../../assets/img/cute.webp');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.puf{
+   background-image: url('../../assets/img/puf.png');
+ 
+  background-position: center;
   background-repeat: no-repeat;
 }
 

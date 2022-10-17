@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <section className="grid-container">
-        <div className="sombra">
+        <div className="umbrellas">
           SHOP
           <h2>WELCOME</h2>
         </div>
@@ -13,15 +13,15 @@ function Home() {
           Pufi RAIN
           <h2>WELCOME</h2>
         </div>
-        <div className="puff">
+        <div className="puf">
           Pufi PUFF
           <h2>Description of product. This text is simulation</h2>
         </div>
-        <div className="playa"></div>
-        <div className="bags"></div>
-        <div className="cart">Pufi CART</div>
-        <div className="nap">Pufi NAP</div>
-        <div className="nap5"></div>
+        <div className="cat"></div>
+        <div className="bolsas"></div>
+        <div className="bag">Pufi CART</div>
+        <div className="napa">Pufi NAP</div>
+        <div className="cute"></div>
       </section>
     </>
   );
