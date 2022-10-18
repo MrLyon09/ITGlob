@@ -67,7 +67,7 @@
 
 .navbar-container.space-between {
   background-image: none;
-  background-color: transparent;
+  background-color: rgba(65, 68, 60, 0.275);
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;

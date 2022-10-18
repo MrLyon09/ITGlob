@@ -8,7 +8,7 @@ function Slider() {
     <>
         <Navbar />
         <Carousel>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1000}>
         
             <img
             className="d-block w-100"
@@ -25,7 +25,7 @@ function Slider() {
 
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={1000}>
             <img
             className="d-block w-100"
             src="https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
