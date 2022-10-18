@@ -6,6 +6,7 @@
     display: -ms-flexbox;
     display: flex;
     
+    
   }
   
   .navCenter {
@@ -57,7 +58,7 @@
   
   .navbar-container.space-between {
     background-image: none;
-    background-color: transparent;
+    background-color: white;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;

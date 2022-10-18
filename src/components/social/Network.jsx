@@ -4,25 +4,19 @@ import './Network.css'
 function Network() {
   return (
     <>
-        <div className='grid-container'>
-          <h1 className='text-social'>INSTAGRAM</h1>
-          
-          
-          <div className='container-mosaic'>
-
-            <img image={1} />
-            <img image={2} />
-            <img image={3} />
-            <img image={4} />
-            <img image={5} />
-            <img image={6} />
-        
-          </div>
-
-        </div>
-  
+      <section className="grid-mosaic">
+       
+        <div className="one"></div>
+        <div className="two"></div>
+        <div className="three"></div>
+        <div className="four"></div>
+        <div className="five"></div>
+        <div className="six"></div>
+      
+      </section>
+     
     </>
   )
 }
 
-export default Network
+export default Network;

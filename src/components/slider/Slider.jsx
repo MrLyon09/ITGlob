@@ -26,7 +26,7 @@ function Slider() {
         <Carousel.Item interval={500}>
             <img
             className="d-block w-100"
-            src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Second slide"
             />
             <Carousel.Caption>

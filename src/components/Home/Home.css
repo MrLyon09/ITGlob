@@ -37,7 +37,7 @@
 }
 
 .umbrellas{
-  background-image: url('../../assets/img/umbrellas.jpeg');
+  background-image: url('../../assets/img/umbrella.jpeg');
   background-size: cover;
   padding: 1rem;
   background-position: center;
@@ -90,13 +90,20 @@
 }
 
 .btn-umbrellas{
+  flex-wrap: wrap;
   justify-content: center;
   background-color: transparent;
-  color: blanchedalmond;
+  color: white;
   padding: 10px 40px;
   border-color: aliceblue;
+  width: 120px;
+  height: 60px;
   display: flex;
   align-items: center;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  
  
 }
 
