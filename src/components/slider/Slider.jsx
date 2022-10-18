@@ -8,9 +8,11 @@ function Slider() {
     <>
         <Navbar />
         <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={500}>
+        
             <img
             className="d-block w-100"
+            
             src="https://images.pexels.com/photos/4553656/pexels-photo-4553656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="First slide"
             
