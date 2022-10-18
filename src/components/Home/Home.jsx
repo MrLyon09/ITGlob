@@ -7,14 +7,10 @@ function Home() {
       <section className="grid-container">
 
         <div className="umbrellas">
-          <button className="btn-umbrellas">
-            SHOP
-          </button>
+          <button className="btn-umbrellas">SHOP</button>
+        </div> 
         
-        </div>
-        <div className="miniumbrella">
-          Pufi RAIN
-        </div>
+        <div className="miniumbrella">Pufi RAIN</div>
 
         <div className="puf">
           Pufi PUFF
@@ -26,6 +22,7 @@ function Home() {
         <div className="bag">Pufi CART</div>
         <div className="napa">Pufi NAP</div>
         <div className="cute"></div>
+      
       </section>
     </>
   );

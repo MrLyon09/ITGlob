@@ -10,7 +10,7 @@
 }
 
 .grid-item {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 
@@ -94,10 +94,10 @@
   background-color: transparent;
   color: blanchedalmond;
   padding: 10px 40px;
-  border-radius: 5px;
   border-color: aliceblue;
   display: flex;
-  position:absolute;
+  align-items: center;
+ 
 }
 
 .grid-container {
