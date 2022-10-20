@@ -3,6 +3,7 @@
 import React from 'react';
 import './Form.css'
 import { useForm, ValidationError } from '@formspree/react';
+import {BsArrowRightCircleFill} from 'react-icons/bs'
 
 
 function Form() {
@@ -16,20 +17,21 @@ function Form() {
       <form onSubmit={handleSubmit}>
 
         <div className='news'>
-          <span className='news__content'>
-            NEWSLETTER
-            <h1>SUSCRIBITE</h1>
+          <span className='news-container'>
+            <p>NEWSLETTER</p>
+            <span>SUSCRIBITE</span>
             <h5>Y enterate de las novedades</h5> 
           </span>
         </div>
 
       
-        <div className="form-btn">
+        <div className="container-send">
           <input id="email" type="email" name="email" placeholder="Ingresa tu Email"/>
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           
-          <button type="submit" disabled={state.submitting}>
-            {" "} 
+          <button className='btn-send' type="submit" disabled={state.submitting}>
+            ENVIAR
+            {" "} <BsArrowRightCircleFill />
           </button>
 
         </div>

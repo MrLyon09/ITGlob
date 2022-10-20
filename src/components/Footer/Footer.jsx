@@ -1,6 +1,6 @@
 import './Footer.css'
-import  face from '../../assets/img/face.ico'
-import  inst from '../../assets/img/inst.ico'
+import  facebook from '../../assets/img/faces.ico'
+import  instagram from '../../assets/img/instagram.ico'
 import  twi from '../../assets/img/twi.ico'
 import  bran from '../../assets/img/bran.png'
 import  QR from '../../assets/img/QR.ico'
@@ -38,8 +38,8 @@ function Footer() {
         <div className="secure-shop">
         <p>
             COMPRA 100% SEGURA <br></br>
-            <ico icon={QR} /> {""}
-            <shield icon={shield} />{" "}
+            <img src={QR} alt='' /> {""}
+            <img src={shield} alt=''/>{" "}
             <span>
             COMPRA CON <br></br>GARANTIA DE PUFI
             </span>
@@ -48,9 +48,9 @@ function Footer() {
 
         <div className="net">
         <p>
-            SIGUENOS EN <ico icon={inst} />{" "}
-            <face icon={face} />{" "}
-            <ico icon={twi} />
+            SIGUENOS EN <img src={instagram} alt=''/>{" "}
+            <img src={facebook} alt='' />{" "}
+            <img src={twi} alt=''/>
         </p>
         </div>
         </div>
