@@ -14,7 +14,7 @@ function Footer() {
         <div className="container-main">
 
         <div className="footerlogo">
-        
+            <span>Pufi*</span>
         </div>
 
         <div>

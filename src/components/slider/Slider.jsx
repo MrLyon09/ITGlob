@@ -18,15 +18,14 @@ function Slider() {
                 alt="First slide"
                 
                 />
-                <Carousel.Caption>
-                <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
-                <div >
+                
+                <div className='carousel-caption'>
+                    <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
                     <button className="btn-slider">SHOP</button>
                 </div>
 
-                </Carousel.Caption>
+                
             </Carousel.Item>
-
 
             <Carousel.Item interval={1000}>
             
@@ -38,8 +37,8 @@ function Slider() {
                 
                 />
                 <Carousel.Caption>
-                <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
-                <div >
+                <div className='carousel-caption'>
+                    <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
                     <button className="btn-slider">SHOP</button>
                 </div>
 
@@ -52,33 +51,20 @@ function Slider() {
                 <img
                 className="d-block w-100"
                 
-                src="https://images.pexels.com/photos/12952677/pexels-photo-12952677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/3355734/pexels-photo-3355734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="First slide"
                 
                 />
                 <Carousel.Caption>
-                <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
-                <div >
+                
+                <div className='carousel-caption'>
+                    <h1 className='text-slider'>ESTAR COMODO, <br></br>NUNCA FUE TAN FACIL</h1>
                     <button className="btn-slider">SHOP</button>
                 </div>
 
                 </Carousel.Caption>
             </Carousel.Item>
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          </Carousel>
 
     </>

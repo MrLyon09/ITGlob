@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="navbar-container space-between d-flex">
       
       <div className="item1" >
-        <span>PUFFI</span> 
+        <span>PUFFI*</span> 
       </div>
 
       <div className="navCenter my-5 d-flex ">

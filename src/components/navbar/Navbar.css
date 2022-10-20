@@ -1,7 +1,6 @@
 .navbar-container {
   width: 100%;
-  padding: 5px;
-  margin: 10px auto;
+  padding: 0px;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +28,7 @@
   font-size: 20px;
   color: aliceblue;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .item {
@@ -42,7 +41,7 @@
   font-size: 20px;
   color: aliceblue;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .item1 {
@@ -54,7 +53,7 @@
   font-size: 50px;
   font-weight: bolder;
   align-items: center;
-  font-size: 50px;
+  font-size: 60px;
   color: aliceblue;
   font-weight: bold;
 }
@@ -67,10 +66,11 @@
 
 .navbar-container.space-between {
   background-image: none;
-  background-color: rgba(65, 68, 60, 0.275);
+  background-color: rgba(8, 79, 94, 0.287);
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-top: 0%;
 }
 
 span>select {
