@@ -8,14 +8,6 @@
     margin-top: 20px;
 }
 
-
-.container-insta>p {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 40px;
-    
-}
-
 .container-insta > span {
     font-size: 45px;
     color: #000;
@@ -24,4 +16,11 @@
     margin-bottom: 40px;
     
 }
+.container-insta>p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
 
