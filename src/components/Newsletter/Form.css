@@ -1,6 +1,6 @@
 .news {
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 
@@ -28,20 +28,24 @@
   
   .form-btn{
     width: 50%;
-    height: 30px;
+    height: 40px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content:center;
+    margin-top: 10px;
+    align-content: center;
+    position: relative;
+
+    
   }
   
-  .Form-btn > input{
-    border: none;
+  .form-btn > input{
+    border: black;
     padding-left: 10px;
     flex-grow: 0.9;
   }
   
   .form-btn > button{
-    border: none;
+    border: black;
     background-color: none;
     background: none;
     padding-right: 10px;

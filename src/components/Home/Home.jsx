@@ -7,7 +7,9 @@ function Home() {
       <section className="grid-container">
 
         <div className="umbrellas" >
-          <button className="btn-umbrellas" >SHOP</button>
+          <button className="btn-umbrellas" >
+          <span className="text-umbrella">SHOP</span>
+          </button>
         </div> 
         <div className="miniumbrella"></div>
         <div className="puf"></div>
